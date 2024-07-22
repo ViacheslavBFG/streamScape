@@ -17,10 +17,10 @@ const СarouselFirst = () => {
     autoplay: true,
     autoplaySpeed: 3000,
   };
-  const sliderRef = React.useRef<Slider>(null);
+
   return (
     <div className="mb-28">
-      <Slider ref={sliderRef} {...settings}>
+      <Slider {...settings}>
         <div>
           <iframe
             className=" rounded-2xl"
