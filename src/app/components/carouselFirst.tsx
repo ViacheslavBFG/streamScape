@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
+// @ts-ignore
 import "slick-carousel/slick/slick.css";
+// @ts-ignore
 import "slick-carousel/slick/slick-theme.css";
 // @ts-ignore
 import Slider from "react-slick";
@@ -17,6 +19,7 @@ const СarouselFirst = () => {
   };
   return (
     <div className="mb-28">
+     
       <Slider {...settings}>
         <div>
           <iframe
