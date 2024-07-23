@@ -30,10 +30,10 @@ const StreamingGirls = () => {
   return (
     <div className="mb-28">
       <div className="flex flex-col items-center gap-5 mb-10">
-        <p className="text-4xl font-bold text-shadow-lg max-sm:text-xl">
+        <p className="text-4xl font-bold text-shadow-lg max-sm:text-xl text-center">
           It’s a universe of communication and <br /> streaming without borders!
         </p>
-        <p className=" font-semibold max-sm:text-sm">
+        <p className=" font-semibold max-sm:text-sm text-center">
           Let yourself to be free – share your thoughts, <br /> delight, and
           fears with beautiful strangers!
         </p>
