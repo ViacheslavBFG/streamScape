@@ -11,25 +11,25 @@ const FindPeople = () => {
         Here you can find
       </p>
       <div className="flex flex-col items-center gap-5 text-xs ">
-        <div className="flex items-center gap-3  p-7  w-1/3 rounded-3xl shadow-2xl justify-center max-sm:w-48 max-sm:flex-col  ">
+        <div className="flex items-center gap-3  p-7  w-1/3 rounded-3xl shadow-2xl justify-center max-sm:w-56 max-sm:text-center max-sm:flex-col  ">
           <img src="img/tv.png" alt="" className="w-6 h-6" />
           <p>Watching streams of everyone you really like;</p>
         </div>
-        <div className="flex items-center gap-3  p-7  w-1/3 rounded-3xl shadow-2xl justify-center max-sm:w-48 max-sm:flex-col ">
+        <div className="flex items-center gap-3  p-7  w-1/3 rounded-3xl shadow-2xl justify-center max-sm:w-56 max-sm:text-center max-sm:flex-col ">
           <img src="img/girl.png" alt="" className="w-6 h-6" />
           <p>Free communication with pretty streamers;</p>
         </div>
-        <div className="flex items-center gap-3  p-7  w-1/3 rounded-3xl shadow-2xl justify-center max-sm:w-48 max-sm:flex-col ">
+        <div className="flex items-center gap-3  p-7  w-1/3 rounded-3xl shadow-2xl justify-center max-sm:w-56 max-sm:text-center max-sm:flex-col ">
           <img src="img/message.png" alt="" className="w-6 h-6" />
           <p>Sweet connection with people you match;</p>
         </div>
-        <div className="flex items-center gap-3  p-7  w-1/3 rounded-3xl shadow-2xl justify-center max-sm:w-48 max-sm:flex-col max-sm:text-center  ">
+        <div className="flex items-center gap-3  p-7  w-1/3 rounded-3xl shadow-2xl justify-center max-sm:w-56 max-sm:text-center max-sm:flex-col">
           <img src="img/ski.png" alt="" className="w-6 h-6" />
           <p>
             New acquaintances with someone who has <br /> similar interests;
           </p>
         </div>
-        <div className="flex items-center gap-3  p-7  w-1/3 rounded-3xl shadow-2xl justify-center max-sm:w-48 max-sm:flex-col max-sm:text-center ">
+        <div className="flex items-center gap-3  p-7  w-1/3 rounded-3xl shadow-2xl justify-center max-sm:w-56 max-sm:flex-col max-sm:text-center ">
           <img src="img/volume.png" alt="" className="w-6 h-6" />
           <p>
             Fascinating hobbies and exciting occupations <br /> from you fancy.

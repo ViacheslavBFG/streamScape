@@ -13,7 +13,7 @@ const About = () => {
     setIsModalOpen(false);
   };
   return (
-    <div className=" flex flex-col justify-center items-center   p-20  shadow-2xl  rounded-3xl w-4/5 ml-auto mr-auto gap-10 mb-28 max-sm:p-5">
+    <div className=" flex flex-col justify-center items-center   p-20  shadow-2xl  rounded-3xl w-4/5 ml-auto mr-auto gap-10 mb-28 max-sm:p-10">
       <p className=" text-4xl font-bold text-shadow-lg max-sm:text-xl">About</p>
       <p className=" text-center max-sm:text-sm max-sm: ">
         It’s a global <span className=" font-bold">streaming platform</span> for

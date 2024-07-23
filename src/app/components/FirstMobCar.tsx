@@ -19,7 +19,7 @@ const FirstMobCar = () => {
   };
 
   return (
-    <div className=" sm:hidden max-sm:mb-10">
+    <div className=" sm:hidden max-sm:mb-10 max-sm:ml-10">
       <Slider {...settings}>
         <div>
           <img
