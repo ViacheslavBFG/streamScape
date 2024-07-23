@@ -19,7 +19,7 @@ const СarouselFirst = () => {
   };
 
   return (
-    <div className="mb-28  pl-32 pr-32">
+    <div className="mb-28  pl-32 pr-32 max-sm:hidden">
       <Slider {...settings}>
         <div>
           <iframe

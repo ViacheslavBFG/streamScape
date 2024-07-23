@@ -22,7 +22,7 @@ const onFinishFailed: FormProps<FieldType>["onFinishFailed"] = (errorInfo) => {
 
 const RegistrationForm = () => {
   return (
-    <div className=" flex flex-col gap-2">
+    <div className=" flex flex-col gap-2  max-sm:hidden">
       <div className="  ">
         <Button className=" text-blue-500 animate-bounce">Log in</Button>
       </div>
