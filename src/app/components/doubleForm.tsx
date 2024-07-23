@@ -8,7 +8,7 @@ import {
   Radio,
   RadioChangeEvent,
 } from "antd";
-import "tailwindcss/tailwind.css";
+
 import { GoogleOutlined, MailOutlined } from "@ant-design/icons";
 
 const DoubleForm = () => {
