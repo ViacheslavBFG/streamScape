@@ -45,57 +45,57 @@ const StreamingGirls = () => {
       <div className="mb-12  pl-32 pr-32 max-sm:hidden">
         <Slider {...settings}>
           <div>
-            <iframe
+            <img
               className=" rounded-2xl"
-              src="https://giphy.com/embed/QahYIZycdqqQ4MOCHl"
+              src="/img/g1.gif"
               width="289"
               height="380"
             />
           </div>
           <div>
-            <iframe
+            <img
               className=" rounded-2xl"
-              src="https://giphy.com/embed/vCLiKMqfytMCwlwMwx"
+              src="/img/g1.gif"
               width="289"
               height="380"
             />
           </div>
           <div>
-            <iframe
+            <img
               className=" rounded-2xl"
-              src="https://giphy.com/embed/TDuIiZSNUGsWvjHrmE"
+              src="/img/g1.gif"
               width="289"
               height="380"
             />
           </div>
           <div>
-            <iframe
+            <img
               className=" rounded-2xl"
-              src="https://giphy.com/embed/s95qZGWCLDimIPqDu9"
+              src="/img/g1.gif"
               width="289"
               height="380"
             />
           </div>
           <div>
-            <iframe
+            <img
               className=" rounded-2xl"
-              src="https://giphy.com/embed/J0lg1Fq3gnPBAP8jEe"
+              src="/img/g1.gif"
               width="289"
               height="380"
             />
           </div>
           <div>
-            <iframe
+            <img
               className=" rounded-2xl"
-              src="https://giphy.com/embed/SK0gbwzzsOc0jnByoi"
+               src="/img/g1.gif"
               width="289"
               height="380"
             />
           </div>
           <div>
-            <iframe
+            <img
               className=" rounded-2xl"
-              src="https://giphy.com/embed/hvq9ijtCCwkju0vJg3"
+               src="/img/g1.gif"
               width="289"
               height="380"
             />

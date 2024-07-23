@@ -22,25 +22,25 @@ const FirstMobCar = () => {
     <div className=" sm:hidden max-sm:mb-10">
       <Slider {...settings}>
         <div>
-          <iframe
+          <img
             className=" rounded-2xl"
-            src="https://giphy.com/embed/mB7UO5OfvApvPUhV2i"
+            src="/img/g1.gif"
             width="189"
             height="280"
           />
         </div>
         <div>
-          <iframe
+          <img
             className=" rounded-2xl"
-            src="https://giphy.com/embed/8NUmPVeHnzbtdeSCUB"
+            src="/img/g1.gif"
             width="189"
             height="280"
           />
         </div>
         <div>
-          <iframe
+          <img
             className=" rounded-2xl"
-            src="https://giphy.com/embed/3mFI6xx3tNPexrap9F"
+            src="/img/g1.gif"
             width="189"
             height="280"
           />

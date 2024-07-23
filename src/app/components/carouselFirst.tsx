@@ -22,41 +22,41 @@ const СarouselFirst = () => {
     <div className="mb-28  pl-32 pr-32 max-sm:hidden">
       <Slider {...settings}>
         <div>
-          <iframe
+          <img
             className=" rounded-2xl"
-            src="https://giphy.com/embed/mB7UO5OfvApvPUhV2i"
+            src="/img/g1.gif"
             width="389"
             height="480"
           />
         </div>
         <div>
-          <iframe
+          <img
             className=" rounded-2xl"
-            src="https://giphy.com/embed/8NUmPVeHnzbtdeSCUB"
+            src="/img/g1.gif"
             width="389"
             height="480"
           />
         </div>
         <div>
-          <iframe
+          <img
             className=" rounded-2xl"
-            src="https://giphy.com/embed/3mFI6xx3tNPexrap9F"
+            src="/img/g1.gif"
             width="389"
             height="480"
           />
         </div>
         <div>
-          <iframe
+          <img
             className=" rounded-2xl"
-            src="https://giphy.com/embed/CGruC8OC0Q7uKqVrJ0"
+            src="/img/g1.gif"
             width="389"
             height="480"
           />
         </div>
         <div>
-          <iframe
+          <img
             className=" rounded-2xl"
-            src="https://giphy.com/embed/HyK8lWaXrwW1oNOhbT"
+            src="/img/g1.gif"
             width="389"
             height="480"
           />
