@@ -7,15 +7,17 @@ import FindPeople from "./components/findPeople";
 import StreamingGirls from "./components/streamingGirls";
 import Fishing from "./components/fishing";
 import Footer from "./components/footer";
+import FirstMobCar from "./components/FirstMobCar";
 
 export default function Home() {
   return (
     <div className="p-10 ">
-      <div className="flex justify-around items-center mb-28">
+      <div className="flex justify-around items-center sm:mb-28">
         <Header />
         <RegistrationForm />
       </div>
       <CarouselFirst />
+      <FirstMobCar />
       <About />
       <JoinUs />
       <FindPeople />

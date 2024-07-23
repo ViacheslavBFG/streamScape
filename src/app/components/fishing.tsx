@@ -14,7 +14,7 @@ const Fishing = () => {
     setIsModalOpen(false);
   };
   return (
-    <div className="flex justify-center items-center pr-28 pl-28">
+    <div className="flex justify-center items-center pr-28 pl-28 max-sm:hidden">
       <div className=" flex flex-col gap-10">
         <p className=" text-4xl font-bold text-shadow-lg">
           It’s a dedicated space for your bold fantasies!
