@@ -51,19 +51,20 @@ const ModalForm: React.FC<ModalFormProps> = ({ isOpen, closeModal }) => {
               onChange={onChange3}
               value={value3}
               optionType="button"
+              buttonStyle="solid"
             />
           </label>
         </div>
         <div>
           <label htmlFor="">
             <p className=" font-semibold">My name</p>{" "}
-            <Input placeholder="e.g. Alex" className="h-10" />
+            <Input placeholder="e.g. Alex" className="h-10 focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50" />
           </label>
         </div>
         <div>
           <label htmlFor="">
             <p className=" font-semibold">I was born</p>{" "}
-            <Input placeholder="MM/DD/YYYY" className="h-10" />
+            <Input placeholder="MM/DD/YYYY" className="h-10 focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50" />
           </label>
         </div>
         <div className="flex justify-center ">

@@ -8,13 +8,14 @@ import StreamingGirls from "./components/streamingGirls";
 import Fishing from "./components/fishing";
 import Footer from "./components/footer";
 import FirstMobCar from "./components/FirstMobCar";
+import DoubleForm from "./components/doubleForm";
 
 export default function Home() {
   return (
     <div className="p-10 ">
       <div className="flex justify-around items-center sm:mb-28">
         <Header />
-        <RegistrationForm />
+        <DoubleForm />
       </div>
       <CarouselFirst />
       <FirstMobCar />
