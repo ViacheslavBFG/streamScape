@@ -19,28 +19,31 @@ const FirstMobCar = () => {
   };
 
   return (
-    <div className=" sm:hidden max-sm:mb-10 max-sm:ml-10">
-      <Slider {...settings}>
-        <div>
+    <div className="sm:hidden max-sm:mb-10 max-sm:ml-10 flex justify-center items-center">
+      <Slider {...settings} className="w-full max-w-sm">
+        <div className="flex justify-center items-center">
           <img
-            className=" rounded-2xl"
+            className="rounded-2xl"
             src="/img/g1.gif"
+            alt="Gif 1"
             width="189"
             height="280"
           />
         </div>
-        <div>
+        <div className="flex justify-center items-center">
           <img
-            className=" rounded-2xl"
+            className="rounded-2xl"
             src="/img/g1.gif"
+            alt="Gif 2"
             width="189"
             height="280"
           />
         </div>
-        <div>
+        <div className="flex justify-center items-center">
           <img
-            className=" rounded-2xl"
+            className="rounded-2xl"
             src="/img/g1.gif"
+            alt="Gif 3"
             width="189"
             height="280"
           />
