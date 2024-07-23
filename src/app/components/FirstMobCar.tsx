@@ -19,7 +19,7 @@ const FirstMobCar = () => {
   };
 
   return (
-    <div className=" sm:hidden">
+    <div className=" sm:hidden max-sm:mb-10">
       <Slider {...settings}>
         <div>
           <iframe

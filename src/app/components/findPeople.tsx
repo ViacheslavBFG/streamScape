@@ -4,7 +4,9 @@ import FirstMobCar from "./FirstMobCar";
 const FindPeople = () => {
   return (
     <div className="mb-28">
-      <FirstMobCar />
+      <div className="mb-10">
+        <FirstMobCar />
+      </div>
       <p className="flex items-center justify-center text-4xl font-bold mb-10 text-shadow-lg max-sm:text-xl">
         Here you can find
       </p>
