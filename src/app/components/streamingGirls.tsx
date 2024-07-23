@@ -26,7 +26,6 @@ const StreamingGirls = () => {
     setIsModalOpen(false);
   };
 
-
   return (
     <div className="mb-28">
       <div className="flex flex-col items-center gap-5 mb-10">
@@ -39,7 +38,7 @@ const StreamingGirls = () => {
         </p>
       </div>
 
-      <div className="mb-12">
+      <div className="mb-12  pl-32 pr-32">
         <Slider {...settings}>
           <div>
             <iframe
@@ -100,7 +99,10 @@ const StreamingGirls = () => {
         </Slider>
       </div>
       <div className="flex justify-center">
-        <Button onClick={showModal} className="w-96 h-16 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 font-bold text-lg  text-white ">
+        <Button
+          onClick={showModal}
+          className="w-96 h-16 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 font-bold text-lg  text-white "
+        >
           Join for free
         </Button>
       </div>

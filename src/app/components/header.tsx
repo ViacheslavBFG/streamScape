@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div>
       <div className="flex flex-col gap-5">
-        <p className=" text-5xl font-bold text-shadow-lg">
+        <p className=" text-5xl font-bold text-shadow-lg ">
           It’s a hot place for your <br /> streaming fantasy.
         </p>
         <p>
