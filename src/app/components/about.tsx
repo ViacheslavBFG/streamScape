@@ -32,7 +32,7 @@ const About = () => {
         <span className=" font-bold">who interests you.</span>
       </p>
       <Button
-        className=" max-sm:w-40   w-96 h-16 bg-gradient-to-r from-green-400 to-blue-500  font-bold text-lg  text-white "
+        className=" max-sm:w-40   w-96 h-16 bg-gradient-to-r from-green-400 to-blue-500  font-bold text-lg  text-white animate-pulse "
         onClick={showModal}
       >
         Join for free

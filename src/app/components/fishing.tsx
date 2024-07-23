@@ -26,7 +26,7 @@ const Fishing = () => {
         </p>
         <Button
           onClick={showModal}
-          className="w-96 h-16 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 font-bold text-lg  text-white "
+          className="w-96 h-16 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 font-bold text-lg  text-white animate-pulse"
         >
           Write to her
         </Button>
