@@ -1,9 +1,10 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { Button } from "antd";
+import ModalForm from "./ModalForm";
 
 const StreamingGirls = () => {
   const settings = {
@@ -15,6 +16,16 @@ const StreamingGirls = () => {
     autoplay: true,
     autoplaySpeed: 3000,
   };
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
 
   return (
     <div className="mb-28">
@@ -89,10 +100,11 @@ const StreamingGirls = () => {
         </Slider>
       </div>
       <div className="flex justify-center">
-        <Button className="w-96 h-16 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 font-bold text-lg  text-white ">
+        <Button onClick={showModal} className="w-96 h-16 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 font-bold text-lg  text-white ">
           Join for free
         </Button>
       </div>
+      <ModalForm isOpen={isModalOpen} closeModal={closeModal} />
     </div>
   );
 };

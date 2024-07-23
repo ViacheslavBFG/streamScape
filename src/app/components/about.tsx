@@ -1,7 +1,17 @@
+"use client";
 import { Button } from "antd";
-import React from "react";
+import React, { useState } from "react";
+import ModalForm from "./modalForm";
 
 const About = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
   return (
     <div className=" flex flex-col justify-center items-center   p-20  shadow-2xl  rounded-3xl w-4/5 ml-auto mr-auto gap-10 mb-28">
       <p className=" text-4xl font-bold text-shadow-lg">About</p>
@@ -21,9 +31,14 @@ const About = () => {
         meet <br /> someone{" "}
         <span className=" font-bold">who interests you.</span>
       </p>
-      <Button className="w-96 h-16 bg-gradient-to-r from-green-400 to-blue-500  font-bold text-lg  text-white ">
+      <Button
+        className="w-96 h-16 bg-gradient-to-r from-green-400 to-blue-500  font-bold text-lg  text-white "
+        onClick={showModal}
+      >
         Join for free
       </Button>
+
+      <ModalForm isOpen={isModalOpen} closeModal={closeModal} />
     </div>
   );
 };
