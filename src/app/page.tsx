@@ -9,6 +9,7 @@ import Fishing from "./components/fishing";
 import Footer from "./components/footer";
 import FirstMobCar from "./components/FirstMobCar";
 import DoubleForm from "./components/doubleForm";
+import BtnLog from "./components/btnLog";
 
 export default function Home() {
   return (
